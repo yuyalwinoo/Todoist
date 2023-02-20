@@ -8,10 +8,13 @@ function AddTask() {
         </h1>
 
         <div className="flex flex-row m-6">
-            <input type="text" placeholder="What's up?" id="default-input" className="bg-slate-300 rounded-lg p-2.5 drop-shadow-md 
+            {/* <input type="text" placeholder="What's up?" id="default-input" className="bg-slate-300 rounded-lg p-2.5 drop-shadow-md 
                                                            focus:border m-1 
                                                            delay-150 hover:-translate-y-1 hover:scale-80 duration-300
-                                                           "/>
+                                                           "/> */}
+            <input className="bg-slate-300 shadow appearance-none border rounded-lg p-2.5 text-gray-700  focus:outline-none focus:shadow-outline
+                    delay-150 hover:-translate-y-1 hover:scale-80 duration-300" 
+                    id="input" type="text" placeholder="What's up?"></input>
 
             <button className='rounded-lg bg-slate-300 p-2 drop-shadow-md m-1 w-10
              delay-150 hover:-translate-y-1 hover:scale-80 duration-300'><span>+</span></button>
